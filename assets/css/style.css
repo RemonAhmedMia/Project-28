@@ -190,6 +190,10 @@ a, .btn, button {
 /* ============================================================== 
      # Start Navbar Css
 =================================================================== */
+
+nav.navbar.mobile-sidenav.navbar-sticky.navbar-default.validnavs.navbar-fixed.dark.no-background.on.menu-center.no-full {
+    background: var(--white);
+}
 /* ============================================================== 
      # Start Banner Css
 =================================================================== */
@@ -215,7 +219,7 @@ a, .btn, button {
 }
 
 .banner-style-one-item h3 {
-    color: white;
+    color: var(--white);
     font-size: 50px;
     text-transform: capitalize;
     font-weight: 500;
@@ -224,7 +228,7 @@ a, .btn, button {
 
 .banner-style-one-item h1 {
     font-size: 96px;
-    color: white;
+    color: var(--white);
     font-weight: 700;
 	line-height: 1.1;
 }
