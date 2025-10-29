@@ -211,6 +211,26 @@ a, .btn, button {
 	content: "";
 	background: var(--color-heading);
 	opacity: 0.6;
+	z-index: -1;
+}
+
+.banner-style-one-item h3 {
+    color: white;
+    font-size: 50px;
+    text-transform: capitalize;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+.banner-style-one-item h1 {
+    font-size: 96px;
+    color: white;
+    font-weight: 700;
+	line-height: 1.1;
+}
+
+.banner-style-one-item h1 span {
+    padding-left: 84px;
 }
 
 /* ============================================================== 
